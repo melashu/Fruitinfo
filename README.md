@@ -13,6 +13,7 @@ Fruitinfo is integrated with Fruityvice API. Fruitinfo is provides data for all 
 [Live Demo](https://heartfelt-capybara-858cd4.netlify.app/)
 
 ## Screenshot 
+![image](https://user-images.githubusercontent.com/30173722/195871970-abf276b7-7d00-45b1-a5c0-68b471140480.png)
 
 ## Getting Started
 ### Prerequisites
