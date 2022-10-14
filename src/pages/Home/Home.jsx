@@ -42,12 +42,12 @@ const Home = () => {
       {(loading === 'pending' || loading === 'idel') && (
         <HashLoader
           loading
-          color="#090819"
+          color="#fff"
           size={55}
           data-testid="hashloader"
           cssOverride={{
             position: 'absolute',
-            top: '110%',
+            top: '120%',
             left: '45%',
           }}
           speedMultiplier={1}
