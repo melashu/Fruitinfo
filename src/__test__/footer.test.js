@@ -5,9 +5,7 @@ import Footer from '../coponents/footer/Footer';
 
 const FooterTesting = (
   <BrowserRouter>
-    {/* <Provider> */}
     <Footer />
-    {/* </Provider> */}
   </BrowserRouter>
 );
 
