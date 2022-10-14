@@ -1,14 +1,14 @@
-import { getFruitInfo, getLoading } from "../redux/fruitreducer";
+import { getFruitInfo, getLoading } from '../redux/fruitreducer';
 
 const initialState = {
   fruit: {
     fruit: [
       {
-        genus: "Diospyros",
-        name: "Persimmon",
+        genus: 'Diospyros',
+        name: 'Persimmon',
         id: 52,
-        family: "Ebenaceae",
-        order: "Rosales",
+        family: 'Ebenaceae',
+        order: 'Rosales',
         nutritions: {
           carbohydrates: 18,
           protein: 0,
@@ -18,11 +18,11 @@ const initialState = {
         },
       },
       {
-        genus: "Musa",
-        name: "Banana",
+        genus: 'Musa',
+        name: 'Banana',
         id: 1,
-        family: "Musaceae",
-        order: "Zingiberales",
+        family: 'Musaceae',
+        order: 'Zingiberales',
         nutritions: {
           carbohydrates: 22,
           protein: 1,
@@ -32,11 +32,11 @@ const initialState = {
         },
       },
       {
-        genus: "Rubus",
-        name: "Blackberry",
+        genus: 'Rubus',
+        name: 'Blackberry',
         id: 64,
-        family: "Rosaceae",
-        order: "Rosales",
+        family: 'Rosaceae',
+        order: 'Rosales',
         nutritions: {
           carbohydrates: 9,
           protein: 1.3,
@@ -47,16 +47,16 @@ const initialState = {
       },
     ],
   },
-  loadingStatus: "idel",
+  loadingStatus: 'idel',
 };
 
-describe("Dose get fruit info method return the state?", () => {
-  test("Test getFruitInfo method", () => {
+describe('Dose get fruit info method return the state?', () => {
+  test('Test getFruitInfo method', () => {
     const fruit = getFruitInfo(initialState);
     expect(fruit).toHaveLength(3);
   });
-  test("Test getFruitInfo methos", () => {
+  test('Test getFruitInfo methos', () => {
     const fruit = getLoading(initialState);
-    expect(fruit).not.toEqual("pending");
+    expect(fruit).not.toEqual('pending');
   });
 });
