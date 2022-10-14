@@ -1,7 +1,6 @@
 @import "../../common.scss";
 
 .header {
-
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -12,10 +11,11 @@
   width: 100%;
   position: sticky;
   box-shadow: $box-shadow;
-  
+
   .logo-container {
     display: flex;
     column-gap: 38px;
+
     .logo {
       font-size: 20px;
       font-weight: 500;
@@ -26,12 +26,14 @@
   .icon-conatiner {
     display: flex;
     gap: 38px;
-    .icon{
+
+    .icon {
       cursor: pointer;
       padding: 5px;
     }
-    .logo{
-     text-transform: uppercase;
+
+    .logo {
+      text-transform: uppercase;
     }
   }
 }

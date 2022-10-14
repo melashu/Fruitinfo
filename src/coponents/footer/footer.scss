@@ -1,13 +1,15 @@
 @import "../../common.scss";
+
 footer {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background:$primaryColor;
+  background: $primaryColor;
   padding: 25px;
   color: $font-primary;
-  a{
+
+  a {
     text-decoration: underline;
     font-style: italic;
   }
