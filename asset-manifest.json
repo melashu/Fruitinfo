@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/Fruitinfo/static/css/main.42219034.css",
-    "main.js": "/Fruitinfo/static/js/main.a413d52e.js",
+    "main.js": "/Fruitinfo/static/js/main.ce08c65d.js",
     "static/media/fruit.jpg": "/Fruitinfo/static/media/fruit.2cb1a1f266dc005a9ee6.jpg",
     "index.html": "/Fruitinfo/index.html",
     "main.42219034.css.map": "/Fruitinfo/static/css/main.42219034.css.map",
-    "main.a413d52e.js.map": "/Fruitinfo/static/js/main.a413d52e.js.map"
+    "main.ce08c65d.js.map": "/Fruitinfo/static/js/main.ce08c65d.js.map"
   },
   "entrypoints": [
     "static/css/main.42219034.css",
-    "static/js/main.a413d52e.js"
+    "static/js/main.ce08c65d.js"
   ]
 }
