@@ -1,7 +1,5 @@
 /* eslint-disable */
 import { createAsyncThunk, createSlice } from "@reduxjs/toolkit";
-// import axios from "axios";
-// const axios = require("axios");
 const fruitThunk = createAsyncThunk("fruitinfo/fruitThunk", async () => {
   try {
     const response = await fetch("api/fruit/all",{method:"GET"});

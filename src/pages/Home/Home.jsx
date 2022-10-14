@@ -22,7 +22,6 @@ const Home = () => {
     }
     return null;
   });
-  // const dataLength = fruitList[0].keys.length;
   useEffect(() => {
     if (fruitList.length === 0) dispatch(fruitThunk());
   }, [dispatch, fruitList.length]);
