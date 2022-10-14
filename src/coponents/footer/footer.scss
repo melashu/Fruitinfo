@@ -1,0 +1,16 @@
+@import "../../common.scss";
+
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: $primaryColor;
+  padding: 25px;
+  color: $font-primary;
+
+  a {
+    text-decoration: underline;
+    font-style: italic;
+  }
+}

@@ -1,0 +1,39 @@
+@import "../../common.scss";
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: $primaryColor;
+  color: $font-primary;
+  padding: 35px;
+  height: 60px;
+  width: 100%;
+  position: sticky;
+  box-shadow: $box-shadow;
+
+  .logo-container {
+    display: flex;
+    column-gap: 38px;
+
+    .logo {
+      font-size: 20px;
+      font-weight: 500;
+      cursor: pointer;
+    }
+  }
+
+  .icon-conatiner {
+    display: flex;
+    gap: 38px;
+
+    .icon {
+      cursor: pointer;
+      padding: 5px;
+    }
+
+    .logo {
+      text-transform: uppercase;
+    }
+  }
+}

@@ -1,0 +1,22 @@
+/* stylelint-disable */
+$primaryColor: #090819;
+$secondaryColor:#1d1a24;
+$font-primary:#7ac4f3;
+$box-shadow: 1px 3px 5px #999;
+$color:#0ff;
+$background-color:rgb(226, 240, 240);
+$search-bg:#fff;
+$img-width:100%;
+$img-height:300px;
+
+@mixin mobile {
+  @media (max-width: 768px) {
+    @content;
+  }
+}
+
+@mixin small {
+  @media (max-width: 400px) {
+    @content;
+  }
+}
