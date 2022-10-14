@@ -1,7 +1,6 @@
 # Fruitinfo
 
 Fruitinfo is integrated with Fruityvice API. Fruitinfo is provides data for all kinds of fruit! Users can use Fruitinfo to find out interesting information about fruit and educate yourself.
-
 ## Built With
 
 - React 
@@ -11,7 +10,7 @@ Fruitinfo is integrated with Fruityvice API. Fruitinfo is provides data for all 
 - JSX
 
 ## Live Demo
-#comming sooon
+[Live Demo](https://heartfelt-capybara-858cd4.netlify.app/)
 
 ## Screenshot 
 
